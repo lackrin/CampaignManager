@@ -1,0 +1,23 @@
+http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/
+
+
+download and install 
+
+ Node.js
+ Bower
+ MongoDB
+ gulp
+ nodemon
+ 
+ cmder
+
+"npm install npm@latest -g"
+
+Create folder C:\data\db for mongoDB
+"npm install" in Code Folder
+
+go to MongoDB folder "C:\Program Files\MongoDB\Server\3.4\bin" in program files and run Mongod.exe
+
+Open 2 tabs and move both to the project.
+	    - one run "Gulp" command, this will build the project
+	    - one run "npm run watch"

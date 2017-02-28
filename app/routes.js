@@ -6,6 +6,7 @@ import Stats from './components/Stats';
 import Character from './components/Character';
 import CharacterList from './components/CharacterList';
 import AddCharacter from './components/AddCharacter';
+import CreateCharacterSheet from './components/CreateCharacterSheet';
 
 export default (
   <Route component={App}>
@@ -18,5 +19,6 @@ export default (
         <Route path=':bloodline' component={CharacterList} />
       </Route>
     </Route>
+    <Route path='/characterSheet' component={CreateCharacterSheet} />
   </Route>
 );
